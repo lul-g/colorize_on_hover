@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(20, 1.2vw);
+  gap: 4px;
+}
+.square {
+  display: inline-block;
+  width: 1.2vw;
+  height: 1.2vw;
+  /* transition: background-color linear 1s; */
+}
